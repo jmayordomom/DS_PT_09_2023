@@ -168,3 +168,4 @@ data_analisis/
 catboost_info/
 *.npz
 *.mmap
+flask/
