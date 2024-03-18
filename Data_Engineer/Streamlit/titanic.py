@@ -21,12 +21,14 @@ import seaborn as sns
 # from sklearn.metrics import confusion_matrix, classification_report, accuracy_score, f1_score, precision_score, recall_score, \
 # roc_curve, roc_auc_score, ConfusionMatrixDisplay, multilabel_confusion_matrix
 import streamlit as st
+import os
 
+print(os.getcwd())
 st.title('El Titanic')
 
 from PIL import Image
 
-image = Image.open('.\Teoria\img\titanic.jpeg')
+image = Image.open('Teoria\img\titanic.jpeg')
 st.image(image)
 
 st.subheader('Ejemplo de pasajeros del Titanic')
